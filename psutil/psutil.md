@@ -14,5 +14,13 @@ psutil.disk_usage("/")
 psutil.disk_io_counters()
 # get info of network
 psutil.net_io_counters()
-
+# get info of login user
+psutil.users()     
+psutil.boot_time()      # system start time
+# get info of process
+p = psutil.Process(PID)
+p.name()
+p.exe()     # process bin path
+p.status()
+p.num_threads()     # process's threads
 ```
