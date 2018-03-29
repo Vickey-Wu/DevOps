@@ -5,7 +5,7 @@
 # @author：vickey-wu
 
 
-from IPy import IP
+import IPy
 ip_0 = IP("192.168.0.0/16")
 print(ip_0.len())       # 65536
 [print(x) for x in ip_0]        # all ip within 192.168.0.0/16, 192.168.0.0,192.168.0.1,192.168.0.2---192.168.255.255
