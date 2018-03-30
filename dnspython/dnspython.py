@@ -3,6 +3,7 @@
 
 import dns.resolver
 import os
+import urlparse
 import http.client, http.server
 
 ip_list = []
